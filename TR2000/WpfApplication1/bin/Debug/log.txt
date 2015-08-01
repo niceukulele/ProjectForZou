@@ -1,0 +1,49 @@
+Tue, 02 Jun 2015 22:27:38 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Warn|   The full path 'E:\project\TR2000\src\TR2000\WpfApplication1\bin\Debug\Plugins' of plugins directory 'Plugins' does not exist.
+Tue, 02 Jun 2015 22:27:38 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.OSGi.SystemBundle, 1.0.0.0' is starting.
+Tue, 02 Jun 2015 22:27:38 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.OSGi.SystemBundle, 1.0.0.0' is in state 'Active'.
+Tue, 02 Jun 2015 22:27:39 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIShell.PageFlowService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Tue, 02 Jun 2015 22:27:39 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'mscorlib.resources, Version=4.0.0.0, Culture=zh-CN, PublicKeyToken=b77a5c561934e089'.
+Tue, 02 Jun 2015 22:27:39 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'mscorlib.resources, Version=4.0.0.0, Culture=zh-CN, PublicKeyToken=b77a5c561934e089'.
+Tue, 02 Jun 2015 22:27:39 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'mscorlib.resources, Version=4.0.0.0, Culture=zh-CHS, PublicKeyToken=b77a5c561934e089'.
+Tue, 02 Jun 2015 22:27:39 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'mscorlib.resources, Version=4.0.0.0, Culture=zh-CHS, PublicKeyToken=b77a5c561934e089'.
+Tue, 02 Jun 2015 22:27:39 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'mscorlib.resources, Version=4.0.0.0, Culture=zh-Hans, PublicKeyToken=b77a5c561934e089'.
+Tue, 02 Jun 2015 22:27:39 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Fatal|   Unhandled exception occurs. This issue is caused by '名称:WpfApplication1.vshost.exe
+无上下文策略。
+'.
+Tue, 02 Jun 2015 22:27:39 GMT|***|FrameworkThread|UIShell.OSGi.Logger|   |FatalSystem.Exception: The page flow service is not installed.
+   在 WpfApplication1.App.App_Startup(Object sender, StartupEventArgs e) 位置 E:\project\TR2000\src\TR2000\WpfApplication1\app.xaml.cs:行号 37
+   在 System.Windows.Application.OnStartup(StartupEventArgs e)
+   在 System.Windows.Application.<.ctor>b__1(Object unused)
+   在 System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   在 MS.Internal.Threading.ExceptionFilterHelper.TryCatchWhen(Object source, Delegate method, Object args, Int32 numArgs, Delegate catchHandler)
+   在 System.Windows.Threading.DispatcherOperation.InvokeImpl()
+   在 System.Windows.Threading.DispatcherOperation.InvokeInSecurityContext(Object state)
+   在 System.Threading.ExecutionContext.runTryCode(Object userData)
+   在 System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean ignoreSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Windows.Threading.DispatcherOperation.Invoke()
+   在 System.Windows.Threading.Dispatcher.ProcessQueue()
+   在 System.Windows.Threading.Dispatcher.WndProcHook(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   在 MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   在 MS.Win32.HwndSubclass.DispatcherCallbackOperation(Object o)
+   在 System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   在 MS.Internal.Threading.ExceptionFilterHelper.TryCatchWhen(Object source, Delegate method, Object args, Int32 numArgs, Delegate catchHandler)
+   在 System.Windows.Threading.Dispatcher.InvokeImpl(DispatcherPriority priority, TimeSpan timeout, Delegate method, Object args, Int32 numArgs)
+   在 MS.Win32.HwndSubclass.SubclassWndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam)
+   在 MS.Win32.UnsafeNativeMethods.DispatchMessage(MSG& msg)
+   在 System.Windows.Threading.Dispatcher.PushFrameImpl(DispatcherFrame frame)
+   在 System.Windows.Threading.Dispatcher.PushFrame(DispatcherFrame frame)
+   在 System.Windows.Application.RunDispatcher(Object ignore)
+   在 System.Windows.Application.RunInternal(Window window)
+   在 System.Windows.Application.Run(Window window)
+   在 System.Windows.Application.Run()
+   在 WpfApplication1.App.Main() 位置 E:\project\TR2000\src\TR2000\WpfApplication1\obj\x86\Debug\App.g.cs:行号 0
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean ignoreSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()

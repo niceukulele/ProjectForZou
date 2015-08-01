@@ -1,0 +1,540 @@
+2015-07-31 00:00:16,075:  Load config file ok 
+2015-07-31 00:00:16,369:  连接读写器失败，失败原因： 端口“COM7”不存在。 
+2015-07-31 00:00:16,370:  open reader serial port fail 
+2015-07-31 00:00:16,396:  连接读卡器失败，失败原因： 端口“COM5”不存在。 
+2015-07-31 00:00:16,396:  init pr9000 fail 
+2015-07-31 00:01:46,397:  Load config file ok 
+2015-07-31 00:01:46,679:  连接读写器失败，失败原因： 端口“COM7”不存在。 
+2015-07-31 00:01:46,679:  open reader serial port fail 
+2015-07-31 00:01:46,705:  连接读卡器失败，失败原因： 端口“COM5”不存在。 
+2015-07-31 00:01:46,705:  init pr9000 fail 
+2015-07-31 00:02:21,156:  Load config file ok 
+2015-07-31 00:02:21,443:  连接读写器失败，失败原因： 端口“COM7”不存在。 
+2015-07-31 00:02:21,443:  open reader serial port fail 
+2015-07-31 00:02:21,469:  连接读卡器失败，失败原因： 端口“COM5”不存在。 
+2015-07-31 00:02:21,470:  init pr9000 fail 
+2015-07-31 00:55:41,688:  Load config file ok 
+2015-07-31 00:55:41,981:  连接读写器失败，失败原因： 端口“COM7”不存在。 
+2015-07-31 00:55:41,981:  open reader serial port fail 
+2015-07-31 00:55:42,009:  连接读卡器失败，失败原因： 端口“COM5”不存在。 
+2015-07-31 00:55:42,009:  init pr9000 fail 
+2015-07-31 00:55:43,359:  start to collect epc 
+2015-07-31 00:55:43,359:  storage start to collect epc 
+2015-07-31 00:55:43,360:  inv duration is 4000ms 
+2015-07-31 00:56:42,660:  Load config file ok 
+2015-07-31 00:56:42,957:  连接读写器失败，失败原因： 端口“COM7”不存在。 
+2015-07-31 00:56:42,957:  open reader serial port fail 
+2015-07-31 00:56:42,984:  连接读卡器失败，失败原因： 端口“COM5”不存在。 
+2015-07-31 00:56:42,984:  init pr9000 fail 
+2015-07-31 00:56:44,031:  start to collect epc 
+2015-07-31 00:56:44,031:  storage start to collect epc 
+2015-07-31 00:56:44,032:  inv duration is 4000ms 
+2015-07-31 00:56:44,033:  buffer inv : open ant 0 
+2015-07-31 00:56:44,033:  buffer inv : open ant 1 
+2015-07-31 00:56:48,035:  inventory timeout finish 
+2015-07-31 00:56:48,038:  wait inv finish duration is 4000ms 
+2015-07-31 00:56:52,045:  wait Inv Finish already timeout 
+2015-07-31 00:56:52,046:  clear wait inv timer 
+2015-07-31 00:56:52,047:  send GetInventoryBufferTagCount cmd 0 
+2015-07-31 00:56:53,548:  send GetInventoryBufferTagCount cmd 1 
+2015-07-31 00:56:55,048:  send GetInventoryBufferTagCount cmd 2 
+2015-07-31 00:56:56,548:  send GetInventoryBufferTagCount cmd 3 
+2015-07-31 00:56:58,048:  send GetInventoryBufferTagCount cmd 4 
+2015-07-31 00:56:59,548:  send GetAndResetInventoryBuffer cmd 0 
+2015-07-31 00:57:01,048:  send GetAndResetInventoryBuffer cmd 1 
+2015-07-31 00:57:02,548:  send GetAndResetInventoryBuffer cmd 2 
+2015-07-31 00:57:04,048:  send GetAndResetInventoryBuffer cmd 3 
+2015-07-31 00:57:05,548:  send GetAndResetInventoryBuffer cmd 4 
+2015-07-31 00:57:09,054:  inventory result: epcIndex=0 
+2015-07-31 00:57:09,063:  未盘存到档案 
+2015-07-31 00:59:36,040:  Load config file ok 
+2015-07-31 00:59:36,459:  连接读写器失败，失败原因： 端口“COM7”不存在。 
+2015-07-31 00:59:36,459:  open reader serial port fail 
+2015-07-31 00:59:36,501:  连接读卡器失败，失败原因： 端口“COM5”不存在。 
+2015-07-31 00:59:36,501:  init pr9000 fail 
+2015-07-31 00:59:37,609:  start to collect epc 
+2015-07-31 00:59:37,609:  storage start to collect epc 
+2015-07-31 00:59:37,610:  inv duration is 4000ms 
+2015-07-31 00:59:37,611:  buffer inv : open ant 0 
+2015-07-31 00:59:37,611:  buffer inv : open ant 1 
+2015-07-31 00:59:41,618:  inventory timeout finish 
+2015-07-31 00:59:41,622:  wait inv finish duration is 4000ms 
+2015-07-31 00:59:45,631:  wait Inv Finish already timeout 
+2015-07-31 00:59:45,632:  clear wait inv timer 
+2015-07-31 00:59:45,633:  send GetInventoryBufferTagCount cmd 0 
+2015-07-31 00:59:47,134:  send GetInventoryBufferTagCount cmd 1 
+2015-07-31 00:59:48,634:  send GetInventoryBufferTagCount cmd 2 
+2015-07-31 00:59:50,134:  send GetInventoryBufferTagCount cmd 3 
+2015-07-31 00:59:51,634:  send GetInventoryBufferTagCount cmd 4 
+2015-07-31 00:59:53,134:  send GetAndResetInventoryBuffer cmd 0 
+2015-07-31 00:59:54,634:  send GetAndResetInventoryBuffer cmd 1 
+2015-07-31 00:59:56,134:  send GetAndResetInventoryBuffer cmd 2 
+2015-07-31 00:59:57,634:  send GetAndResetInventoryBuffer cmd 3 
+2015-07-31 00:59:59,134:  send GetAndResetInventoryBuffer cmd 4 
+2015-07-31 01:00:02,641:  inventory result: epcIndex=0 
+2015-07-31 01:00:02,649:  未盘存到档案 
+2015-07-31 01:01:17,768:  Load config file ok 
+2015-07-31 01:01:18,065:  连接读写器失败，失败原因： 端口“COM7”不存在。 
+2015-07-31 01:01:18,065:  open reader serial port fail 
+2015-07-31 01:01:18,092:  连接读卡器失败，失败原因： 端口“COM5”不存在。 
+2015-07-31 01:01:18,092:  init pr9000 fail 
+2015-07-31 01:01:18,868:  start to collect epc 
+2015-07-31 01:01:18,868:  storage start to collect epc 
+2015-07-31 01:01:18,869:  inv duration is 4000ms 
+2015-07-31 01:01:18,869:  buffer inv : open ant 0 
+2015-07-31 01:01:18,869:  buffer inv : open ant 1 
+2015-07-31 01:01:22,881:  inventory timeout finish 
+2015-07-31 01:01:22,885:  wait inv finish duration is 4000ms 
+2015-07-31 01:01:26,890:  wait Inv Finish already timeout 
+2015-07-31 01:01:26,891:  clear wait inv timer 
+2015-07-31 01:01:26,892:  send GetInventoryBufferTagCount cmd 0 
+2015-07-31 01:01:28,393:  send GetInventoryBufferTagCount cmd 1 
+2015-07-31 01:01:29,894:  send GetInventoryBufferTagCount cmd 2 
+2015-07-31 01:01:31,394:  send GetInventoryBufferTagCount cmd 3 
+2015-07-31 01:01:32,894:  send GetInventoryBufferTagCount cmd 4 
+2015-07-31 01:01:34,394:  send GetAndResetInventoryBuffer cmd 0 
+2015-07-31 01:01:35,894:  send GetAndResetInventoryBuffer cmd 1 
+2015-07-31 01:01:37,394:  send GetAndResetInventoryBuffer cmd 2 
+2015-07-31 01:01:38,894:  send GetAndResetInventoryBuffer cmd 3 
+2015-07-31 01:01:40,394:  send GetAndResetInventoryBuffer cmd 4 
+2015-07-31 01:01:43,897:  inventory result: epcIndex=0 
+2015-07-31 01:01:43,914:  未盘存到档案 
+2015-07-31 01:02:34,195:  Load config file ok 
+2015-07-31 01:02:34,485:  连接读写器失败，失败原因： 端口“COM7”不存在。 
+2015-07-31 01:02:34,485:  open reader serial port fail 
+2015-07-31 01:02:34,513:  连接读卡器失败，失败原因： 端口“COM5”不存在。 
+2015-07-31 01:02:34,513:  init pr9000 fail 
+2015-07-31 01:04:44,253:  Load config file ok 
+2015-07-31 01:04:44,545:  连接读写器失败，失败原因： 端口“COM7”不存在。 
+2015-07-31 01:04:44,545:  open reader serial port fail 
+2015-07-31 01:04:44,573:  连接读卡器失败，失败原因： 端口“COM5”不存在。 
+2015-07-31 01:04:44,573:  init pr9000 fail 
+2015-07-31 01:04:45,364:  start to collect epc 
+2015-07-31 01:04:45,364:  storage start to collect epc 
+2015-07-31 01:04:45,365:  inv duration is 4000ms 
+2015-07-31 01:04:45,366:  buffer inv : open ant 0 
+2015-07-31 01:04:45,366:  buffer inv : open ant 1 
+2015-07-31 01:04:49,377:  inventory timeout finish 
+2015-07-31 01:04:49,380:  wait inv finish duration is 4000ms 
+2015-07-31 01:04:53,386:  wait Inv Finish already timeout 
+2015-07-31 01:04:53,386:  clear wait inv timer 
+2015-07-31 01:04:53,387:  send GetInventoryBufferTagCount cmd 0 
+2015-07-31 01:04:54,887:  send GetInventoryBufferTagCount cmd 1 
+2015-07-31 01:04:56,387:  send GetInventoryBufferTagCount cmd 2 
+2015-07-31 01:04:57,887:  send GetInventoryBufferTagCount cmd 3 
+2015-07-31 01:04:59,388:  send GetInventoryBufferTagCount cmd 4 
+2015-07-31 01:05:00,889:  send GetAndResetInventoryBuffer cmd 0 
+2015-07-31 01:05:01,890:  send GetAndResetInventoryBuffer cmd 1 
+2015-07-31 01:05:02,890:  send GetAndResetInventoryBuffer cmd 2 
+2015-07-31 01:05:03,890:  send GetAndResetInventoryBuffer cmd 3 
+2015-07-31 01:05:04,890:  send GetAndResetInventoryBuffer cmd 4 
+2015-07-31 01:05:06,894:  inventory result: epcIndex=0 
+2015-07-31 01:05:06,933:  未盘存到档案 
+2015-07-31 01:06:39,292:  start to collect epc 
+2015-07-31 01:06:39,293:  storage start to collect epc 
+2015-07-31 01:06:39,294:  inv duration is 4000ms 
+2015-07-31 01:06:39,294:  buffer inv : open ant 0 
+2015-07-31 01:06:39,294:  buffer inv : open ant 1 
+2015-07-31 01:06:43,307:  inventory timeout finish 
+2015-07-31 01:06:43,307:  wait inv finish duration is 4000ms 
+2015-07-31 01:06:47,315:  wait Inv Finish already timeout 
+2015-07-31 01:06:47,315:  clear wait inv timer 
+2015-07-31 01:06:47,315:  send GetInventoryBufferTagCount cmd 0 
+2015-07-31 01:06:48,816:  send GetInventoryBufferTagCount cmd 1 
+2015-07-31 01:06:50,316:  send GetInventoryBufferTagCount cmd 2 
+2015-07-31 01:06:51,816:  send GetInventoryBufferTagCount cmd 3 
+2015-07-31 01:06:53,316:  send GetInventoryBufferTagCount cmd 4 
+2015-07-31 01:06:54,816:  send GetAndResetInventoryBuffer cmd 0 
+2015-07-31 01:06:55,816:  send GetAndResetInventoryBuffer cmd 1 
+2015-07-31 01:06:56,816:  send GetAndResetInventoryBuffer cmd 2 
+2015-07-31 01:06:57,816:  send GetAndResetInventoryBuffer cmd 3 
+2015-07-31 01:06:58,816:  send GetAndResetInventoryBuffer cmd 4 
+2015-07-31 01:07:00,816:  inventory result: epcIndex=0 
+2015-07-31 01:07:00,829:  未盘存到档案 
+2015-07-31 01:11:29,613:  Load config file ok 
+2015-07-31 01:11:29,900:  连接读写器失败，失败原因： 端口“COM7”不存在。 
+2015-07-31 01:11:29,900:  open reader serial port fail 
+2015-07-31 01:11:29,927:  连接读卡器失败，失败原因： 端口“COM5”不存在。 
+2015-07-31 01:11:29,927:  init pr9000 fail 
+2015-07-31 01:11:42,170:  start to collect epc 
+2015-07-31 01:11:42,170:  storage start to collect epc 
+2015-07-31 01:11:42,171:  inv duration is 4000ms 
+2015-07-31 01:11:42,173:  buffer inv : open ant 0 
+2015-07-31 01:11:42,174:  buffer inv : open ant 1 
+2015-07-31 01:11:46,185:  inventory timeout finish 
+2015-07-31 01:11:46,188:  wait inv finish duration is 4000ms 
+2015-07-31 01:11:50,192:  wait Inv Finish already timeout 
+2015-07-31 01:11:50,193:  clear wait inv timer 
+2015-07-31 01:11:50,194:  send GetInventoryBufferTagCount cmd 0 
+2015-07-31 01:11:51,695:  send GetInventoryBufferTagCount cmd 1 
+2015-07-31 01:11:53,195:  send GetInventoryBufferTagCount cmd 2 
+2015-07-31 01:11:54,695:  send GetInventoryBufferTagCount cmd 3 
+2015-07-31 01:11:56,195:  send GetInventoryBufferTagCount cmd 4 
+2015-07-31 01:11:57,695:  send GetAndResetInventoryBuffer cmd 0 
+2015-07-31 01:11:58,696:  send GetAndResetInventoryBuffer cmd 1 
+2015-07-31 01:11:59,696:  send GetAndResetInventoryBuffer cmd 2 
+2015-07-31 01:12:00,696:  send GetAndResetInventoryBuffer cmd 3 
+2015-07-31 01:12:01,696:  send GetAndResetInventoryBuffer cmd 4 
+2015-07-31 01:12:03,700:  inventory result: epcIndex=0 
+2015-07-31 01:12:03,711:  未盘存到档案 
+2015-07-31 01:12:47,762:  Load config file ok 
+2015-07-31 01:12:48,052:  连接读写器失败，失败原因： 端口“COM7”不存在。 
+2015-07-31 01:12:48,052:  open reader serial port fail 
+2015-07-31 01:12:48,078:  连接读卡器失败，失败原因： 端口“COM5”不存在。 
+2015-07-31 01:12:48,078:  init pr9000 fail 
+2015-07-31 01:13:19,558:  start to collect epc 
+2015-07-31 01:13:19,558:  storage start to collect epc 
+2015-07-31 01:13:19,559:  inv duration is 4000ms 
+2015-07-31 01:13:19,560:  buffer inv : open ant 0 
+2015-07-31 01:13:19,560:  buffer inv : open ant 1 
+2015-07-31 01:13:31,151:  inventory timeout finish 
+2015-07-31 01:13:31,152:  wait inv finish duration is 4000ms 
+2015-07-31 01:13:35,163:  wait Inv Finish already timeout 
+2015-07-31 01:13:35,163:  clear wait inv timer 
+2015-07-31 01:13:35,164:  send GetInventoryBufferTagCount cmd 0 
+2015-07-31 01:13:36,664:  send GetInventoryBufferTagCount cmd 1 
+2015-07-31 01:13:38,164:  send GetInventoryBufferTagCount cmd 2 
+2015-07-31 01:13:39,664:  send GetInventoryBufferTagCount cmd 3 
+2015-07-31 01:13:41,164:  send GetInventoryBufferTagCount cmd 4 
+2015-07-31 01:13:42,670:  send GetAndResetInventoryBuffer cmd 0 
+2015-07-31 01:13:43,671:  send GetAndResetInventoryBuffer cmd 1 
+2015-07-31 01:13:44,671:  send GetAndResetInventoryBuffer cmd 2 
+2015-07-31 01:13:45,671:  send GetAndResetInventoryBuffer cmd 3 
+2015-07-31 01:13:46,671:  send GetAndResetInventoryBuffer cmd 4 
+2015-07-31 01:13:48,674:  inventory result: epcIndex=0 
+2015-07-31 01:13:48,697:  未盘存到档案 
+2015-07-31 07:17:48,614:  Load config file ok 
+2015-07-31 07:17:48,894:  连接读写器失败，失败原因： 端口“COM7”不存在。 
+2015-07-31 07:17:48,894:  open reader serial port fail 
+2015-07-31 07:17:48,926:  连接读卡器失败，失败原因： 端口“COM5”不存在。 
+2015-07-31 07:17:48,926:  init pr9000 fail 
+2015-07-31 07:17:56,804:  start to collect epc 
+2015-07-31 07:17:56,804:  storage start to collect epc 
+2015-07-31 07:17:56,804:  inv duration is 4000ms 
+2015-07-31 07:17:56,804:  buffer inv : open ant 0 
+2015-07-31 07:17:56,804:  buffer inv : open ant 1 
+2015-07-31 07:18:00,813:  inventory timeout finish 
+2015-07-31 07:18:00,813:  wait inv finish duration is 4000ms 
+2015-07-31 07:18:04,822:  wait Inv Finish already timeout 
+2015-07-31 07:18:04,822:  clear wait inv timer 
+2015-07-31 07:18:04,822:  send GetInventoryBufferTagCount cmd 0 
+2015-07-31 07:18:06,328:  send GetInventoryBufferTagCount cmd 1 
+2015-07-31 07:18:07,836:  send GetInventoryBufferTagCount cmd 2 
+2015-07-31 07:18:09,345:  send GetInventoryBufferTagCount cmd 3 
+2015-07-31 07:18:10,858:  send GetInventoryBufferTagCount cmd 4 
+2015-07-31 07:18:12,371:  send GetAndResetInventoryBuffer cmd 0 
+2015-07-31 07:18:13,385:  send GetAndResetInventoryBuffer cmd 1 
+2015-07-31 07:18:14,399:  send GetAndResetInventoryBuffer cmd 2 
+2015-07-31 07:18:15,413:  send GetAndResetInventoryBuffer cmd 3 
+2015-07-31 07:18:16,427:  send GetAndResetInventoryBuffer cmd 4 
+2015-07-31 07:18:18,471:  inventory result: epcIndex=0 
+2015-07-31 07:18:18,486:  未盘存到档案 
+2015-07-31 07:18:29,930:  start to collect epc 
+2015-07-31 07:18:29,930:  storage start to collect epc 
+2015-07-31 07:18:29,930:  inv duration is 4000ms 
+2015-07-31 07:18:29,930:  buffer inv : open ant 0 
+2015-07-31 07:18:29,930:  buffer inv : open ant 1 
+2015-07-31 07:18:33,929:  wait inv finish duration is 4000ms 
+2015-07-31 07:18:33,929:  inventory timeout finish 
+2015-07-31 07:18:37,939:  wait Inv Finish already timeout 
+2015-07-31 07:18:37,939:  clear wait inv timer 
+2015-07-31 07:18:37,939:  send GetInventoryBufferTagCount cmd 0 
+2015-07-31 07:18:39,452:  send GetInventoryBufferTagCount cmd 1 
+2015-07-31 07:18:40,965:  send GetInventoryBufferTagCount cmd 2 
+2015-07-31 07:18:42,478:  send GetInventoryBufferTagCount cmd 3 
+2015-07-31 07:18:43,991:  send GetInventoryBufferTagCount cmd 4 
+2015-07-31 07:18:45,505:  send GetAndResetInventoryBuffer cmd 0 
+2015-07-31 07:18:46,519:  send GetAndResetInventoryBuffer cmd 1 
+2015-07-31 07:18:47,533:  send GetAndResetInventoryBuffer cmd 2 
+2015-07-31 07:18:48,547:  send GetAndResetInventoryBuffer cmd 3 
+2015-07-31 07:18:49,561:  send GetAndResetInventoryBuffer cmd 4 
+2015-07-31 07:18:51,604:  inventory result: epcIndex=0 
+2015-07-31 07:18:51,604:  未盘存到档案 
+2015-07-31 07:19:37,854:  start to collect epc 
+2015-07-31 07:19:37,854:  storage start to collect epc 
+2015-07-31 07:19:37,854:  inv duration is 4000ms 
+2015-07-31 07:19:37,854:  buffer inv : open ant 0 
+2015-07-31 07:19:37,854:  buffer inv : open ant 1 
+2015-07-31 07:19:41,865:  inventory timeout finish 
+2015-07-31 07:19:41,865:  wait inv finish duration is 4000ms 
+2015-07-31 07:19:45,874:  wait Inv Finish already timeout 
+2015-07-31 07:19:45,874:  clear wait inv timer 
+2015-07-31 07:19:45,874:  send GetInventoryBufferTagCount cmd 0 
+2015-07-31 07:19:47,387:  send GetInventoryBufferTagCount cmd 1 
+2015-07-31 07:19:48,901:  send GetInventoryBufferTagCount cmd 2 
+2015-07-31 07:19:50,414:  send GetInventoryBufferTagCount cmd 3 
+2015-07-31 07:19:51,927:  send GetInventoryBufferTagCount cmd 4 
+2015-07-31 07:19:53,440:  send GetAndResetInventoryBuffer cmd 0 
+2015-07-31 07:19:54,454:  send GetAndResetInventoryBuffer cmd 1 
+2015-07-31 07:19:55,468:  send GetAndResetInventoryBuffer cmd 2 
+2015-07-31 07:19:56,482:  send GetAndResetInventoryBuffer cmd 3 
+2015-07-31 07:19:57,496:  send GetAndResetInventoryBuffer cmd 4 
+2015-07-31 07:19:59,540:  inventory result: epcIndex=0 
+2015-07-31 07:19:59,540:  未盘存到档案 
+2015-07-31 07:20:27,761:  Load config file ok 
+2015-07-31 07:20:28,044:  连接读写器失败，失败原因： 端口“COM7”不存在。 
+2015-07-31 07:20:28,044:  open reader serial port fail 
+2015-07-31 07:20:28,069:  连接读卡器失败，失败原因： 端口“COM5”不存在。 
+2015-07-31 07:20:28,069:  init pr9000 fail 
+2015-07-31 07:20:30,197:  start to collect epc 
+2015-07-31 07:20:30,197:  storage start to collect epc 
+2015-07-31 07:20:30,198:  inv duration is 4000ms 
+2015-07-31 07:20:30,199:  buffer inv : open ant 0 
+2015-07-31 07:20:30,199:  buffer inv : open ant 1 
+2015-07-31 07:20:34,205:  inventory timeout finish 
+2015-07-31 07:20:34,207:  wait inv finish duration is 4000ms 
+2015-07-31 07:20:38,219:  wait Inv Finish already timeout 
+2015-07-31 07:20:38,219:  clear wait inv timer 
+2015-07-31 07:20:38,219:  send GetInventoryBufferTagCount cmd 0 
+2015-07-31 07:20:52,930:  send GetInventoryBufferTagCount cmd 1 
+2015-07-31 07:20:54,802:  send GetInventoryBufferTagCount cmd 2 
+2015-07-31 07:20:57,696:  send GetInventoryBufferTagCount cmd 3 
+2015-07-31 07:20:59,207:  send GetInventoryBufferTagCount cmd 4 
+2015-07-31 07:21:00,720:  send GetAndResetInventoryBuffer cmd 0 
+2015-07-31 07:21:01,734:  send GetAndResetInventoryBuffer cmd 1 
+2015-07-31 07:21:02,748:  send GetAndResetInventoryBuffer cmd 2 
+2015-07-31 07:21:03,762:  send GetAndResetInventoryBuffer cmd 3 
+2015-07-31 07:21:04,776:  send GetAndResetInventoryBuffer cmd 4 
+2015-07-31 07:21:06,819:  inventory result: epcIndex=0 
+2015-07-31 07:21:06,851:  未盘存到档案 
+2015-07-31 07:21:46,348:  Load config file ok 
+2015-07-31 07:21:46,625:  连接读写器失败，失败原因： 端口“COM7”不存在。 
+2015-07-31 07:21:46,625:  open reader serial port fail 
+2015-07-31 07:21:46,651:  连接读卡器失败，失败原因： 端口“COM5”不存在。 
+2015-07-31 07:21:46,651:  init pr9000 fail 
+2015-07-31 07:22:09,023:  start to collect epc 
+2015-07-31 07:22:09,023:  storage start to collect epc 
+2015-07-31 07:22:09,023:  inv duration is 4000ms 
+2015-07-31 07:22:09,023:  buffer inv : open ant 0 
+2015-07-31 07:22:09,023:  buffer inv : open ant 1 
+2015-07-31 07:22:13,032:  inventory timeout finish 
+2015-07-31 07:22:13,032:  wait inv finish duration is 4000ms 
+2015-07-31 07:22:19,829:  wait Inv Finish already timeout 
+2015-07-31 07:22:19,831:  clear wait inv timer 
+2015-07-31 07:22:19,837:  send GetInventoryBufferTagCount cmd 0 
+2015-07-31 07:22:21,346:  send GetInventoryBufferTagCount cmd 1 
+2015-07-31 07:22:22,859:  send GetInventoryBufferTagCount cmd 2 
+2015-07-31 07:22:24,372:  send GetInventoryBufferTagCount cmd 3 
+2015-07-31 07:22:25,886:  send GetInventoryBufferTagCount cmd 4 
+2015-07-31 07:22:27,390:  send GetAndResetInventoryBuffer cmd 0 
+2015-07-31 07:22:28,390:  send GetAndResetInventoryBuffer cmd 1 
+2015-07-31 07:22:29,395:  send GetAndResetInventoryBuffer cmd 2 
+2015-07-31 07:22:30,409:  send GetAndResetInventoryBuffer cmd 3 
+2015-07-31 07:22:31,423:  send GetAndResetInventoryBuffer cmd 4 
+2015-07-31 07:22:33,466:  inventory result: epcIndex=0 
+2015-07-31 07:22:33,482:  未盘存到档案 
+2015-07-31 07:22:54,913:  start to collect epc 
+2015-07-31 07:22:54,913:  storage start to collect epc 
+2015-07-31 07:22:54,913:  inv duration is 4000ms 
+2015-07-31 07:22:54,913:  buffer inv : open ant 0 
+2015-07-31 07:22:54,913:  buffer inv : open ant 1 
+2015-07-31 07:22:58,923:  wait inv finish duration is 4000ms 
+2015-07-31 07:22:58,923:  inventory timeout finish 
+2015-07-31 07:23:02,932:  wait Inv Finish already timeout 
+2015-07-31 07:23:02,932:  clear wait inv timer 
+2015-07-31 07:23:02,932:  send GetInventoryBufferTagCount cmd 0 
+2015-07-31 07:23:04,445:  send GetInventoryBufferTagCount cmd 1 
+2015-07-31 07:23:05,958:  send GetInventoryBufferTagCount cmd 2 
+2015-07-31 07:23:07,471:  send GetInventoryBufferTagCount cmd 3 
+2015-07-31 07:23:08,985:  send GetInventoryBufferTagCount cmd 4 
+2015-07-31 07:23:10,498:  send GetAndResetInventoryBuffer cmd 0 
+2015-07-31 07:23:11,512:  send GetAndResetInventoryBuffer cmd 1 
+2015-07-31 07:23:12,526:  send GetAndResetInventoryBuffer cmd 2 
+2015-07-31 07:23:13,540:  send GetAndResetInventoryBuffer cmd 3 
+2015-07-31 07:23:14,554:  send GetAndResetInventoryBuffer cmd 4 
+2015-07-31 07:23:16,597:  inventory result: epcIndex=0 
+2015-07-31 07:23:16,597:  未盘存到档案 
+2015-07-31 07:23:33,138:  Load config file ok 
+2015-07-31 07:23:33,426:  连接读写器失败，失败原因： 端口“COM7”不存在。 
+2015-07-31 07:23:33,427:  open reader serial port fail 
+2015-07-31 07:23:33,453:  连接读卡器失败，失败原因： 端口“COM5”不存在。 
+2015-07-31 07:23:33,453:  init pr9000 fail 
+2015-07-31 12:55:26,032:  Load config file ok 
+2015-07-31 12:55:26,461:  连接读写器失败，失败原因： 端口“COM7”不存在。 
+2015-07-31 12:55:26,461:  open reader serial port fail 
+2015-07-31 12:55:26,486:  连接读卡器失败，失败原因： 端口“COM5”不存在。 
+2015-07-31 12:55:26,486:  init pr9000 fail 
+2015-07-31 12:55:29,786:  start to collect epc 
+2015-07-31 12:55:29,786:  storage start to collect epc 
+2015-07-31 12:56:24,410:  Load config file ok 
+2015-07-31 12:56:24,750:  连接读写器失败，失败原因： 端口“COM7”不存在。 
+2015-07-31 12:56:24,750:  open reader serial port fail 
+2015-07-31 12:56:24,772:  连接读卡器失败，失败原因： 端口“COM5”不存在。 
+2015-07-31 12:56:24,772:  init pr9000 fail 
+2015-07-31 12:56:25,626:  start to collect epc 
+2015-07-31 12:56:25,626:  storage start to collect epc 
+2015-07-31 12:56:25,627:  new timer inv duration is 4000ms 
+2015-07-31 12:56:25,627:  inv duration is 4000ms 
+2015-07-31 12:56:25,628:  buffer inv : open ant 0 
+2015-07-31 12:56:25,628:  buffer inv : open ant 1 
+2015-07-31 12:56:29,631:  inventory timeout finish 
+2015-07-31 12:56:29,633:  new wait inv finish duration is 5000ms 
+2015-07-31 12:56:29,633:  wait inv finish duration is 5000ms 
+2015-07-31 12:56:34,638:  wait Inv Finish already timeout 
+2015-07-31 12:56:34,638:  clear wait inv timer 
+2015-07-31 12:56:34,638:  send GetInventoryBufferTagCount cmd 0 
+2015-07-31 12:56:36,139:  send GetInventoryBufferTagCount cmd 1 
+2015-07-31 12:56:37,639:  send GetInventoryBufferTagCount cmd 2 
+2015-07-31 12:56:39,139:  send GetAndResetInventoryBuffer cmd 0 
+2015-07-31 12:56:40,139:  send GetAndResetInventoryBuffer cmd 1 
+2015-07-31 12:56:41,139:  send GetAndResetInventoryBuffer cmd 2 
+2015-07-31 12:56:42,139:  send GetAndResetInventoryBuffer cmd 3 
+2015-07-31 12:56:43,139:  send GetAndResetInventoryBuffer cmd 4 
+2015-07-31 12:56:44,139:  send GetAndResetInventoryBuffer cmd 5 
+2015-07-31 12:56:45,139:  send GetAndResetInventoryBuffer cmd 6 
+2015-07-31 12:56:46,139:  send GetAndResetInventoryBuffer cmd 7 
+2015-07-31 12:56:47,139:  send GetAndResetInventoryBuffer cmd 8 
+2015-07-31 12:56:48,139:  send GetAndResetInventoryBuffer cmd 9 
+2015-07-31 12:56:50,141:  inventory result: epcIndex=0 
+2015-07-31 12:56:50,145:  未盘存到档案 
+2015-07-31 12:57:32,898:  start to collect epc 
+2015-07-31 12:57:32,898:  storage start to collect epc 
+2015-07-31 12:57:48,991:  inv duration is 4000ms 
+2015-07-31 12:57:55,576:  buffer inv : open ant 0 
+2015-07-31 12:57:55,576:  buffer inv : open ant 1 
+2015-07-31 12:57:55,583:  inventory timeout finish 
+2015-07-31 12:58:03,570:  wait inv finish duration is 5000ms 
+2015-07-31 12:58:19,693:  wait Inv Finish already timeout 
+2015-07-31 13:00:21,442:  Load config file ok 
+2015-07-31 13:00:21,839:  连接读写器失败，失败原因： 端口“COM7”不存在。 
+2015-07-31 13:00:21,839:  open reader serial port fail 
+2015-07-31 13:00:21,863:  连接读卡器失败，失败原因： 端口“COM5”不存在。 
+2015-07-31 13:00:21,863:  init pr9000 fail 
+2015-07-31 13:02:03,291:  start to collect epc 
+2015-07-31 13:02:03,291:  storage start to collect epc 
+2015-07-31 13:02:03,292:  new timer inv duration is 4000ms 
+2015-07-31 13:02:03,292:  inv duration is 4000ms 
+2015-07-31 13:02:03,292:  buffer inv : open ant 0 
+2015-07-31 13:02:03,292:  buffer inv : open ant 1 
+2015-07-31 13:02:07,295:  inventory timeout finish 
+2015-07-31 13:02:07,297:  new wait inv finish duration is 5000ms 
+2015-07-31 13:02:07,297:  wait inv finish duration is 5000ms 
+2015-07-31 13:02:12,302:  wait Inv Finish already timeout 
+2015-07-31 13:02:12,302:  clear wait inv timer 
+2015-07-31 13:02:12,302:  send GetInventoryBufferTagCount cmd 0 
+2015-07-31 13:02:13,803:  send GetInventoryBufferTagCount cmd 1 
+2015-07-31 13:02:15,303:  send GetInventoryBufferTagCount cmd 2 
+2015-07-31 13:02:16,803:  send GetAndResetInventoryBuffer cmd 0 
+2015-07-31 13:02:17,803:  send GetAndResetInventoryBuffer cmd 1 
+2015-07-31 13:02:18,803:  send GetAndResetInventoryBuffer cmd 2 
+2015-07-31 13:02:19,803:  send GetAndResetInventoryBuffer cmd 3 
+2015-07-31 13:02:20,804:  send GetAndResetInventoryBuffer cmd 4 
+2015-07-31 13:02:22,805:  inventory result: epcIndex=0 
+2015-07-31 13:02:22,808:  未盘存到档案 
+2015-07-31 13:02:25,378:  start to collect epc 
+2015-07-31 13:02:25,378:  storage start to collect epc 
+2015-07-31 13:05:47,228:  Load config file ok 
+2015-07-31 13:05:47,616:  连接读写器失败，失败原因： 端口“COM7”不存在。 
+2015-07-31 13:05:47,616:  open reader serial port fail 
+2015-07-31 13:05:47,641:  连接读卡器失败，失败原因： 端口“COM5”不存在。 
+2015-07-31 13:05:47,641:  init pr9000 fail 
+2015-07-31 13:05:51,643:  start to collect epc 
+2015-07-31 13:05:51,643:  storage start to collect epc 
+2015-07-31 13:05:51,644:  new timer inv duration is 4000ms 
+2015-07-31 13:05:51,644:  inv duration is 4000ms 
+2015-07-31 13:05:51,644:  buffer inv : open ant 0 
+2015-07-31 13:05:51,644:  buffer inv : open ant 1 
+2015-07-31 13:05:55,653:  inventory timeout finish 
+2015-07-31 13:05:55,655:  new wait inv finish duration is 5000ms 
+2015-07-31 13:05:55,655:  wait inv finish duration is 5000ms 
+2015-07-31 13:06:00,656:  wait Inv Finish already timeout 
+2015-07-31 13:06:00,656:  clear wait inv timer 
+2015-07-31 13:06:00,656:  send GetInventoryBufferTagCount cmd 0 
+2015-07-31 13:06:02,157:  send GetInventoryBufferTagCount cmd 1 
+2015-07-31 13:06:03,657:  send GetInventoryBufferTagCount cmd 2 
+2015-07-31 13:06:05,157:  send GetAndResetInventoryBuffer cmd 0 
+2015-07-31 13:06:06,157:  send GetAndResetInventoryBuffer cmd 1 
+2015-07-31 13:06:07,157:  send GetAndResetInventoryBuffer cmd 2 
+2015-07-31 13:06:08,158:  send GetAndResetInventoryBuffer cmd 3 
+2015-07-31 13:06:09,158:  send GetAndResetInventoryBuffer cmd 4 
+2015-07-31 13:06:11,159:  inventory result: epcIndex=0 
+2015-07-31 13:06:11,163:  未盘存到档案 
+2015-07-31 13:06:14,730:  start to collect epc 
+2015-07-31 13:06:14,730:  storage start to collect epc 
+2015-07-31 13:06:41,018:  new timer inv duration is 4000ms 
+2015-07-31 13:06:44,085:  inv duration is 4000ms 
+2015-07-31 13:06:47,539:  buffer inv : open ant 0 
+2015-07-31 13:06:47,539:  buffer inv : open ant 1 
+2015-07-31 13:06:49,111:  inventory timeout finish 
+2015-07-31 13:06:53,168:  new wait inv finish duration is 5000ms 
+2015-07-31 13:06:53,652:  wait inv finish duration is 5000ms 
+2015-07-31 13:06:59,268:  wait Inv Finish already timeout 
+2015-07-31 13:07:03,076:  clear wait inv timer 
+2015-07-31 13:07:17,762:  send GetInventoryBufferTagCount cmd 0 
+2015-07-31 13:07:19,263:  send GetInventoryBufferTagCount cmd 1 
+2015-07-31 13:07:20,763:  send GetInventoryBufferTagCount cmd 2 
+2015-07-31 13:07:22,263:  send GetAndResetInventoryBuffer cmd 0 
+2015-07-31 13:07:23,263:  send GetAndResetInventoryBuffer cmd 1 
+2015-07-31 13:07:24,263:  send GetAndResetInventoryBuffer cmd 2 
+2015-07-31 13:07:25,263:  send GetAndResetInventoryBuffer cmd 3 
+2015-07-31 13:07:26,263:  send GetAndResetInventoryBuffer cmd 4 
+2015-07-31 13:07:28,263:  inventory result: epcIndex=0 
+2015-07-31 13:07:28,270:  未盘存到档案 
+2015-07-31 13:23:32,887:  Load config file ok 
+2015-07-31 13:23:33,219:  连接读写器失败，失败原因： 端口“COM7”不存在。 
+2015-07-31 13:23:33,219:  open reader serial port fail 
+2015-07-31 13:23:33,240:  连接读卡器失败，失败原因： 端口“COM5”不存在。 
+2015-07-31 13:23:33,240:  init pr9000 fail 
+2015-07-31 13:23:37,371:  start to collect epc 
+2015-07-31 13:23:37,402:  storage start to collect epc 
+2015-07-31 13:23:37,403:  new timer inv duration is 4000ms 
+2015-07-31 13:23:37,403:  inv duration is 4000ms 
+2015-07-31 13:23:37,404:  buffer inv : open ant 0 
+2015-07-31 13:23:37,404:  buffer inv : open ant 1 
+2015-07-31 13:23:41,405:  inventory timeout finish 
+2015-07-31 13:23:41,407:  new wait inv finish duration is 8000ms 
+2015-07-31 13:23:41,407:  wait inv finish duration is 8000ms 
+2015-07-31 13:23:49,413:  wait Inv Finish already timeout 
+2015-07-31 13:23:49,413:  clear wait inv timer 
+2015-07-31 13:23:49,414:  send GetInventoryBufferTagCount cmd 0 
+2015-07-31 13:23:50,914:  send GetInventoryBufferTagCount cmd 1 
+2015-07-31 13:23:52,414:  send GetInventoryBufferTagCount cmd 2 
+2015-07-31 13:23:53,914:  send GetAndResetInventoryBuffer cmd 0 
+2015-07-31 13:23:54,915:  send GetAndResetInventoryBuffer cmd 1 
+2015-07-31 13:23:55,915:  send GetAndResetInventoryBuffer cmd 2 
+2015-07-31 13:23:56,915:  send GetAndResetInventoryBuffer cmd 3 
+2015-07-31 13:23:57,915:  send GetAndResetInventoryBuffer cmd 4 
+2015-07-31 13:23:59,916:  inventory result: epcIndex=0 
+2015-07-31 13:23:59,919:  未盘存到档案 
+2015-07-31 13:24:11,922:  start to collect epc 
+2015-07-31 13:24:11,934:  storage start to collect epc 
+2015-07-31 13:24:14,843:  new timer inv duration is 4000ms 
+2015-07-31 13:24:14,843:  inv duration is 4000ms 
+2015-07-31 13:24:14,843:  buffer inv : open ant 0 
+2015-07-31 13:24:14,843:  buffer inv : open ant 1 
+2015-07-31 13:24:18,845:  inventory timeout finish 
+2015-07-31 13:24:18,845:  new wait inv finish duration is 8000ms 
+2015-07-31 13:24:18,845:  wait inv finish duration is 8000ms 
+2015-07-31 13:24:26,854:  wait Inv Finish already timeout 
+2015-07-31 13:24:26,854:  clear wait inv timer 
+2015-07-31 13:24:26,854:  send GetInventoryBufferTagCount cmd 0 
+2015-07-31 13:24:28,354:  send GetInventoryBufferTagCount cmd 1 
+2015-07-31 13:24:29,855:  send GetInventoryBufferTagCount cmd 2 
+2015-07-31 13:24:31,355:  send GetAndResetInventoryBuffer cmd 0 
+2015-07-31 13:24:32,355:  send GetAndResetInventoryBuffer cmd 1 
+2015-07-31 13:24:33,355:  send GetAndResetInventoryBuffer cmd 2 
+2015-07-31 13:24:34,355:  send GetAndResetInventoryBuffer cmd 3 
+2015-07-31 13:24:35,355:  send GetAndResetInventoryBuffer cmd 4 
+2015-07-31 13:24:37,355:  inventory result: epcIndex=0 
+2015-07-31 13:24:37,367:  未盘存到档案 
+2015-07-31 13:24:39,842:  start to collect epc 
+2015-07-31 13:24:39,856:  storage start to collect epc 
+2015-07-31 13:24:39,856:  new timer inv duration is 4000ms 
+2015-07-31 13:24:39,856:  inv duration is 4000ms 
+2015-07-31 13:24:39,856:  buffer inv : open ant 0 
+2015-07-31 13:24:39,856:  buffer inv : open ant 1 
+2015-07-31 13:24:43,864:  inventory timeout finish 
+2015-07-31 13:24:43,864:  new wait inv finish duration is 8000ms 
+2015-07-31 13:24:43,864:  wait inv finish duration is 8000ms 
+2015-07-31 13:24:51,877:  wait Inv Finish already timeout 
+2015-07-31 13:24:51,877:  clear wait inv timer 
+2015-07-31 13:24:51,877:  send GetInventoryBufferTagCount cmd 0 
+2015-07-31 13:24:53,377:  send GetInventoryBufferTagCount cmd 1 
+2015-07-31 13:24:54,877:  send GetInventoryBufferTagCount cmd 2 
+2015-07-31 13:24:56,377:  send GetAndResetInventoryBuffer cmd 0 
+2015-07-31 13:24:57,377:  send GetAndResetInventoryBuffer cmd 1 
+2015-07-31 13:24:58,377:  send GetAndResetInventoryBuffer cmd 2 
+2015-07-31 13:24:59,377:  send GetAndResetInventoryBuffer cmd 3 
+2015-07-31 13:25:00,377:  send GetAndResetInventoryBuffer cmd 4 
+2015-07-31 13:25:02,377:  inventory result: epcIndex=0 
+2015-07-31 13:25:02,384:  未盘存到档案 
