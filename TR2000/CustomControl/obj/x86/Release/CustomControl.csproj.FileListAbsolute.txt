@@ -44,3 +44,11 @@ D:\workspace\tmp\TR2000\CustomControl\obj\x86\Release\ResGen.write.1.tlog
 D:\workspace\tmp\TR2000\CustomControl\obj\x86\Release\CustomControl.dll
 D:\workspace\tmp\TR2000\CustomControl\obj\x86\Release\CustomControl.pdb
 E:\project\TR2000\CustomControl\obj\x86\Release\CustomControl.csprojResolveAssemblyReference.cache
+D:\workspace\tmp\temp_solution\TR2000\CustomControl\bin\x86\Release\CustomControl.dll
+D:\workspace\tmp\temp_solution\TR2000\CustomControl\bin\x86\Release\CustomControl.pdb
+D:\workspace\tmp\temp_solution\TR2000\CustomControl\obj\x86\Release\ResolveAssemblyReference.cache
+D:\workspace\tmp\temp_solution\TR2000\CustomControl\obj\x86\Release\CustomControl.IpAddressTextBox.resources
+D:\workspace\tmp\temp_solution\TR2000\CustomControl\obj\x86\Release\ResGen.read.1.tlog
+D:\workspace\tmp\temp_solution\TR2000\CustomControl\obj\x86\Release\ResGen.write.1.tlog
+D:\workspace\tmp\temp_solution\TR2000\CustomControl\obj\x86\Release\CustomControl.dll
+D:\workspace\tmp\temp_solution\TR2000\CustomControl\obj\x86\Release\CustomControl.pdb

@@ -47,7 +47,7 @@ namespace UHFDemo
         System.Timers.Timer barTimer;
         private void updateBar(Object source, System.Timers.ElapsedEventArgs e)
         {
-            this.progressBar1.Value = count * (100 - remain) / barDuration;
+            this.progressBar1.Value = count * (100 - remain) / barDuration + 8;
             if (count < barDuration)
             {
                 count++;
@@ -112,7 +112,7 @@ namespace UHFDemo
             this.barDuration = duration;
             this.remain = remain;
             this.progressBar1.Maximum = 100;
-            this.progressBar1.Value = 0;
+            this.progressBar1.Value = 8;
             count = 0;
             barTimerInit();
             //SetCursor(LoadCursor(null, IDC_WAIT));

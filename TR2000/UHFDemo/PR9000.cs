@@ -107,24 +107,7 @@ namespace UHFDemo
                 string msg = ex.Message;
             }
         }
-        public int SendStartInvCmd()
-        {
-            byte[] cmd = {0xBB, 0x00, 0x27, 0x00, 0x03, 0x22, 0x00, 0x64, 0x7e};
-            return SendMessage(cmd);
-            //return 0;
-        }
-        public int SendStopInvCmd()
-        {
-            byte[] cmd = { 0xBB, 0x00, 0x28, 0x00, 0x00, 0x7E };
-            try
-            {
-                iSerialPort.DiscardInBuffer();
-            }catch(SystemException ex)
-            {
-            }
-            return SendMessage(cmd);
-        }
-        public void ClearBuffer()
+        public void ClearCom()
         {
             try
             {
@@ -134,6 +117,17 @@ namespace UHFDemo
             catch (SystemException ex)
             {
             }
+        }
+        public int SendStartInvCmd()
+        {
+            byte[] cmd = {0xBB, 0x00, 0x27, 0x00, 0x03, 0x22, 0x00, 0x64, 0x7e};
+            return SendMessage(cmd);
+            //return 0;
+        }
+        public int SendStopInvCmd()
+        {
+            byte[] cmd = { 0xBB, 0x00, 0x28, 0x00, 0x00, 0x7E };
+            return SendMessage(cmd);
         }
         public int SendMessage(byte[] btArySenderData)
         {

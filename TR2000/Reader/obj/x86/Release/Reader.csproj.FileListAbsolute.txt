@@ -28,3 +28,8 @@ D:\workspace\tmp\TR2000\Reader\obj\x86\Release\ResolveAssemblyReference.cache
 D:\workspace\tmp\TR2000\Reader\obj\x86\Release\Reader.dll
 D:\workspace\tmp\TR2000\Reader\obj\x86\Release\Reader.pdb
 E:\project\TR2000\Reader\obj\x86\Release\Reader.csprojResolveAssemblyReference.cache
+D:\workspace\tmp\temp_solution\TR2000\Reader\bin\x86\Release\Reader.dll
+D:\workspace\tmp\temp_solution\TR2000\Reader\bin\x86\Release\Reader.pdb
+D:\workspace\tmp\temp_solution\TR2000\Reader\obj\x86\Release\ResolveAssemblyReference.cache
+D:\workspace\tmp\temp_solution\TR2000\Reader\obj\x86\Release\Reader.dll
+D:\workspace\tmp\temp_solution\TR2000\Reader\obj\x86\Release\Reader.pdb

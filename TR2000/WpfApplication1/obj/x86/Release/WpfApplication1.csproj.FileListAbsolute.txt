@@ -54,3 +54,16 @@ D:\workspace\tmp\TR2000\WpfApplication1\obj\x86\Release\GenerateResource.write.1
 D:\workspace\tmp\TR2000\WpfApplication1\obj\x86\Release\WpfApplication1.exe
 D:\workspace\tmp\TR2000\WpfApplication1\obj\x86\Release\WpfApplication1.pdb
 E:\project\TR2000\WpfApplication1\obj\x86\Release\WpfApplication1.csprojResolveAssemblyReference.cache
+D:\workspace\tmp\temp_solution\TR2000\WpfApplication1\bin\Release\WpfApplication1.exe
+D:\workspace\tmp\temp_solution\TR2000\WpfApplication1\bin\Release\WpfApplication1.pdb
+D:\workspace\tmp\temp_solution\TR2000\WpfApplication1\obj\x86\Release\ResolveAssemblyReference.cache
+D:\workspace\tmp\temp_solution\TR2000\WpfApplication1\obj\x86\Release\MainWindow.baml
+D:\workspace\tmp\temp_solution\TR2000\WpfApplication1\obj\x86\Release\MainWindow.g.cs
+D:\workspace\tmp\temp_solution\TR2000\WpfApplication1\obj\x86\Release\App.g.cs
+D:\workspace\tmp\temp_solution\TR2000\WpfApplication1\obj\x86\Release\WpfApplication1_MarkupCompile.cache
+D:\workspace\tmp\temp_solution\TR2000\WpfApplication1\obj\x86\Release\WpfApplication1.g.resources
+D:\workspace\tmp\temp_solution\TR2000\WpfApplication1\obj\x86\Release\WpfApplication1.Properties.Resources.resources
+D:\workspace\tmp\temp_solution\TR2000\WpfApplication1\obj\x86\Release\GenerateResource.read.1.tlog
+D:\workspace\tmp\temp_solution\TR2000\WpfApplication1\obj\x86\Release\GenerateResource.write.1.tlog
+D:\workspace\tmp\temp_solution\TR2000\WpfApplication1\obj\x86\Release\WpfApplication1.exe
+D:\workspace\tmp\temp_solution\TR2000\WpfApplication1\obj\x86\Release\WpfApplication1.pdb

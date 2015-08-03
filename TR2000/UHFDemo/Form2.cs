@@ -455,21 +455,8 @@ namespace UHFDemo
                     {
                         string mylog = "ProcessSetWorkAntenna::Now inventory finish";
                         writeLog(mylog);
-                        waitInvFinish.Release();
-                        /*
                         //wake up process thread
-                        if (waitInvFinish != null)
-                        {
-                            try
-                            {
-                                waitInvFinish.Release();
-                            }
-                            catch (SystemException ex)
-                            {
-                                writeLog("ProcessSetWorkAntenna::waitInvFinish.Release()" + ex.Message);
-                            }
-                        }
-                         * */
+                        waitInvFinish.Release();
                     }
                     return;
                 }
@@ -831,21 +818,8 @@ namespace UHFDemo
                 {
                     string mylog = "RunLoopInventroy::Now inventory finish";
                     writeLog(mylog);
-                    waitInvFinish.Release();
-                    /*
                     //wake up process thread
-                    if (waitInvFinish != null)
-                    {
-                        try
-                        {
-                            waitInvFinish.Release();
-                        }
-                        catch (SystemException ex)
-                        {
-                            writeLog("RunLoopInventroy::waitInvFinish.Release()" + ex.Message);
-                        }
-                    }
-                     * */
+                    waitInvFinish.Release();
                 }
             
             }
@@ -1036,7 +1010,7 @@ namespace UHFDemo
             m_curSetting.btWorkAntenna = btWorkAntenna;
             
             startInvDiag();
-            waitInvFinish = new Semaphore(0, 1);
+            
             invSem.WaitOne();
             processInvEpcData();
         }
@@ -1102,34 +1076,13 @@ namespace UHFDemo
             if (conf.operaMode == (byte)ReaderConfig.OPERA_MODE.STORAGE)
             {
                 string mylog = "";
-                waitInvFinishtimerInit(8);
-                
-                waitInvFinish.WaitOne();
-                /*
-                if (waitInvFinish != null)
-                {
-                    waitInvFinish.Close();
-                    waitInvFinish = null;
-                }
-                if (waitInvFinish == null)
-                {
-                    waitInvFinish = new Semaphore(0, 1);
-                }
-                try
-                {
-                    waitInvFinish.WaitOne();
-                }
-                catch (SystemException ex)
-                {
-                    writeLog("waitInvFinish.WaitOne()"+ex.Message);
-                }
-                 * */
-                clearInvFinishTimer();
-                
+                //waitInvFinishtimerInit(4);
+                waitInvFinish.WaitOne(5000, false);
+                //clearInvFinishTimer();
                 myInfoMessageBox.setBarValue(myInfoMessageBox.getBarRemain()/4);
                 //invSem.Release();
                 //Thread.Sleep(3000);
-                for (int j = 0; j < 3; j++)
+                for (int j = 0; j < 5; j++)
                 {
                     mylog = "send GetInventoryBufferTagCount cmd " + j;
                     writeLog(mylog);
@@ -1175,7 +1128,7 @@ namespace UHFDemo
                         
                         string strLog = "发送失败 error=" + sendRet;
                         writeLog(strLog);
-                        string showLog = "发送数据至服务器异常";
+                        string showLog = "发送数据至服务器失败";
                         WriteLog(logRichText, showLog, 1);
                         int ret = Form_messagebox.show();
                         if (ret == 0)
@@ -1211,8 +1164,6 @@ namespace UHFDemo
                     }
                 }
                 //start new session
-                
-                
                 inUploadSession = false;
                 enablePr9000CtsInv();
             }
@@ -1220,25 +1171,9 @@ namespace UHFDemo
             {
                 stopRealInv();
                 //reader.GetAndResetInventoryBuffer(m_curSetting.btReadId);
-                waitInvFinishtimerInit(2);
-                if (waitInvFinish != null)
-                {
-                    waitInvFinish.Close();
-                    waitInvFinish = null;
-                }
-                if (waitInvFinish == null)
-                {
-                    waitInvFinish = new Semaphore(0, 1);
-                }
-                try
-                {
-                    waitInvFinish.WaitOne();
-                }
-                catch (SystemException ex)
-                {
-                    writeLog("waitInvFinish.WaitOne()" + ex.Message);
-                }
-                clearInvFinishTimer();
+                waitInvFinish.WaitOne(2000, false);
+                //waitInvFinish.WaitOne();
+                //clearInvFinishTimer();
                 //Thread.Sleep(500);
                 saveWarnLogToFile();
                 ledCtrl.closeLed();
@@ -1255,11 +1190,6 @@ namespace UHFDemo
                     WriteLog(logRichText, strLog, 0);
                 }
                 //start to run infrared checking routine
-                if (waitInvFinish != null)
-                {
-                    waitInvFinish.Close();
-                    waitInvFinish = null;
-                }
                 infraredTimer.Enabled = true;
                 //stopSwitchLed();
             }
@@ -1267,27 +1197,12 @@ namespace UHFDemo
             {
                 //do nothing
             }
-
-            reader.ClearCom();
         }
         private void waitInvFinishtimeout(object source, System.Timers.ElapsedEventArgs e)
         {
             string log = "wait Inv Finish already timeout";
             writeLog(log);
             waitInvFinish.Release();
-            /*
-            if (waitInvFinish != null)
-            {
-                try
-                {
-                    waitInvFinish.Release();
-                }
-                catch (SystemException ex)
-                {
-                    writeLog("waitInvFinishtimeout::waitInvFinish.Release()" + ex.Message);
-                }
-            }
-             * */
         }
         System.Timers.Timer invWaitTimer;// = new System.Timers.Timer(10 * 1000);
         private void waitInvFinishtimerInit(int duration)
@@ -1296,17 +1211,11 @@ namespace UHFDemo
             //timerInventory.Interval = 1000;
             //timerInventory.Start();
             //timerInv.Enabled = true;
-            if (invWaitTimer != null)
-            {
-                invWaitTimer.Close();
-                invWaitTimer = null;
-            }
             if (invWaitTimer == null)
             {
                 invWaitTimer = new System.Timers.Timer(duration * 1000);
                 
                 invWaitTimer.Elapsed += new System.Timers.ElapsedEventHandler(waitInvFinishtimeout);
-                writeLog("new wait inv finish duration is " + duration * 1000 + "ms");
             }
             writeLog("wait inv finish duration is " + duration * 1000 + "ms");
             invWaitTimer.AutoReset = false;
@@ -1317,8 +1226,6 @@ namespace UHFDemo
             if (invWaitTimer != null)
             {
                 invWaitTimer.Enabled = false;
-                invWaitTimer.Close();
-                invWaitTimer = null;
                 writeLog("clear wait inv timer");
             }
         }
@@ -1329,17 +1236,12 @@ namespace UHFDemo
             //timerInventory.Interval = 1000;
             //timerInventory.Start();
             //timerInv.Enabled = true;
-            if (invTimer != null)
-            {
-                invTimer.Close();
-                invTimer = null;
-            }
             if (invTimer == null)
             {
                 invTimer = new System.Timers.Timer(duration * 1000);
 
                 invTimer.Elapsed += new System.Timers.ElapsedEventHandler(timeout);
-                writeLog("new timer inv duration is " + duration * 1000 + "ms");
+
             }
             writeLog("inv duration is " + duration * 1000 + "ms");
             invTimer.AutoReset = false;
@@ -1348,7 +1250,6 @@ namespace UHFDemo
         private void startCollectDocEpc()
         {
             writeLog("start to collect epc");
-            //reader.ClearCom();
             if (conf.operaMode == (byte)ReaderConfig.OPERA_MODE.SECURITY)
             {
                 writeLog("security start to collect epc");
@@ -1368,7 +1269,6 @@ namespace UHFDemo
             {
                 //do nothing
             }
-            writeLog("Inventory session finish");
         }
     
         private void CloseReader()
@@ -1582,7 +1482,6 @@ namespace UHFDemo
                         {
                             inUploadSession = true;
                             disablePr9000Inv();
-                            pr9000.ClearBuffer();
                             //verify the epc is stuff 
                             strLog = "识别到人员标签";
                             WriteLog(logRichText, strLog, 0);
@@ -1598,13 +1497,14 @@ namespace UHFDemo
                             //remove 0x3000 head
                             string tmpEpc = stuffEpc.Substring(4, stuffEpc.Length - 4);
                             //writeLog("temp Epc:" + stuffEpc);
+                            pr9000.ClearCom();
                             if (sc.checkUsrInfo(tmpEpc) == 0)
                             {
                                 updateUserInfo();
                             }
                             startCollectDocEpc();
-
-                            pr9000.ClearBuffer();
+                            //wb modify
+                            
                         }
                     }
                     //WriteLog(logRichText, strLog, 0);
@@ -1645,8 +1545,7 @@ namespace UHFDemo
                     writeLog("Convert User ID fail " + ex.Message);
                 }
                 textBoxStuffName.Text = sc.usrName;
-            }
-            writeLog("user name: " + sc.usrName);
+            }   
         }
         /************************************************************************/
         /* server communication module */
